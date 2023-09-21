@@ -1,0 +1,7 @@
+services:
+  wb:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
